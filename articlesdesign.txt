@@ -1,0 +1,538 @@
+This is the design we will used for table : <div class="relative w-full overflow-x-auto">
+<div class="min-w-[600px] md:min-w-full">
+<table class="w-full border rounded-2xl overflow-hidden">
+<thead>
+<tr class="bg-gradient-to-r from-yellow-500/15 to-transparent border-b border-yellow-500/20">
+<th class="text-left p-5 pl-6 text-yellow-500 font-bold text-sm uppercase tracking-wider">Sport</th>
+<th class="text-left p-5 text-yellow-500 font-bold text-sm uppercase tracking-wider">Coverage</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even:bg-yellow-500/5 hover:bg-yellow-500/10 transition-all duration-300">
+<td class="p-5 pl-6 text-white font-medium">Football</td>
+<td class="p-5 text-gray-300">International leagues and tournaments</td>
+</tr>
+<tr class="even:bg-yellow-500/5 hover:bg-yellow-500/10 transition-all duration-300">
+<td class="p-5 pl-6 text-white font-medium">UFC</td>
+<td class="p-5 text-gray-300">Live fights and replays</td>
+</tr>
+<tr class="even:bg-yellow-500/5 hover:bg-yellow-500/10 transition-all duration-300">
+<td class="p-5 pl-6 text-white font-medium">NBA</td>
+<td class="p-5 text-gray-300">Full season coverage</td>
+</tr>
+<tr class="even:bg-yellow-500/5 hover:bg-yellow-500/10 transition-all duration-300">
+<td class="p-5 pl-6 text-white font-medium">Boxing</td>
+<td class="p-5 text-gray-300">PPV events and highlights</td>
+</tr>
+<tr class="even:bg-yellow-500/5 hover:bg-yellow-500/10 transition-all duration-300">
+<td class="p-5 pl-6 text-white font-medium">Formula 1</td>
+<td class="p-5 text-gray-300">Racing streams and analysis</td>
+</tr>
+<tr class="even:bg-yellow-500/5 hover:bg-yellow-500/10 transition-all duration-300">
+<td class="p-5 pl-6 text-white font-medium">Tennis</td>
+<td class="p-5 text-gray-300">Major tournaments</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+
+-----------------------
+
+
+
+
+<div class="space-y-12">
+
+<!-- ========== DESIGN 1: Simple Icon + Text ========== -->
+<div>
+<h3 class="text-white text-xl font-bold mb-5 tracking-tight">Simple Icon + Text List</h3>
+<div class="space-y-3">
+<div class="flex items-start gap-3">
+<svg class="w-5 h-5 text-yellow-500 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<circle cx="12" cy="12" r="10"></circle>
+<path d="m9 12 2 2 4-4"></path>
+</svg>
+<span class="text-gray-300 text-base">20,000+ Live TV Channels Worldwide</span>
+</div>
+<div class="flex items-start gap-3">
+<svg class="w-5 h-5 text-yellow-500 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<circle cx="12" cy="12" r="10"></circle>
+<path d="m9 12 2 2 4-4"></path>
+</svg>
+<span class="text-gray-300 text-base">65,000+ Movies & Series in 4K/8K</span>
+</div>
+<div class="flex items-start gap-3">
+<svg class="w-5 h-5 text-yellow-500 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<circle cx="12" cy="12" r="10"></circle>
+<path d="m9 12 2 2 4-4"></path>
+</svg>
+<span class="text-gray-300 text-base">All Premium Sports & PPV Events</span>
+</div>
+<div class="flex items-start gap-3">
+<svg class="w-5 h-5 text-yellow-500 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<circle cx="12" cy="12" r="10"></circle>
+<path d="m9 12 2 2 4-4"></path>
+</svg>
+<span class="text-gray-300 text-base">Netflix, HBO, Disney+ & Prime Content</span>
+</div>
+<div class="flex items-start gap-3">
+<svg class="w-5 h-5 text-yellow-500 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<circle cx="12" cy="12" r="10"></circle>
+<path d="m9 12 2 2 4-4"></path>
+</svg>
+<span class="text-gray-300 text-base">Ultra HD & Anti-Freeze Streaming Technology</span>
+</div>
+</div>
+</div>
+
+<!-- ========== DESIGN 3: Card Style List ========== -->
+<div>
+<h3 class="text-white text-xl font-bold mb-5 tracking-tight">Card Style List</h3>
+<div class="space-y-3">
+<div class="flex items-center gap-3 p-4 bg-white/[0.02] rounded-xl border border-white/5 hover:border-yellow-500/30 hover:bg-yellow-500/5 transition-all duration-300">
+<svg class="w-5 h-5 text-yellow-500 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<circle cx="12" cy="12" r="10"></circle>
+<path d="m9 12 2 2 4-4"></path>
+</svg>
+<span class="text-gray-300 text-base">Works on Firestick, Smart TV & Android</span>
+</div>
+<div class="flex items-center gap-3 p-4 bg-white/[0.02] rounded-xl border border-white/5 hover:border-yellow-500/30 hover:bg-yellow-500/5 transition-all duration-300">
+<svg class="w-5 h-5 text-yellow-500 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<circle cx="12" cy="12" r="10"></circle>
+<path d="m9 12 2 2 4-4"></path>
+</svg>
+<span class="text-gray-300 text-base">Catch-Up TV & Interactive EPG Guide</span>
+</div>
+<div class="flex items-center gap-3 p-4 bg-white/[0.02] rounded-xl border border-white/5 hover:border-yellow-500/30 hover:bg-yellow-500/5 transition-all duration-300">
+<svg class="w-5 h-5 text-yellow-500 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<circle cx="12" cy="12" r="10"></circle>
+<path d="m9 12 2 2 4-4"></path>
+</svg>
+<span class="text-gray-300 text-base">99.9% Stable IPTV Servers</span>
+</div>
+<div class="flex items-center gap-3 p-4 bg-white/[0.02] rounded-xl border border-white/5 hover:border-yellow-500/30 hover:bg-yellow-500/5 transition-all duration-300">
+<svg class="w-5 h-5 text-yellow-500 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<circle cx="12" cy="12" r="10"></circle>
+<path d="m9 12 2 2 4-4"></path>
+</svg>
+<span class="text-gray-300 text-base">Instant IPTV Activation</span>
+</div>
+<div class="flex items-center gap-3 p-4 bg-white/[0.02] rounded-xl border border-white/5 hover:border-yellow-500/30 hover:bg-yellow-500/5 transition-all duration-300">
+<svg class="w-5 h-5 text-yellow-500 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<circle cx="12" cy="12" r="10"></circle>
+<path d="m9 12 2 2 4-4"></path>
+</svg>
+<span class="text-gray-300 text-base">Priority 24/7 IPTV Support</span>
+</div>
+</div>
+</div>
+
+<!-- ========== DESIGN 5: Numbered Step List ========== -->
+<div>
+<h3 class="text-white text-xl font-bold mb-5 tracking-tight">Numbered Step List</h3>
+<div class="space-y-6">
+<div class="flex items-start gap-4">
+<div class="w-8 h-8 rounded-full bg-yellow-500/10 border border-yellow-500/30 flex items-center justify-center shrink-0">
+<span class="text-yellow-500 font-bold text-sm">1</span>
+</div>
+<div>
+<h4 class="text-white font-semibold text-base">Subscribe to YeahIPTV</h4>
+<p class="text-gray-400 text-sm mt-1 leading-relaxed">Choose your plan and complete secure payment</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="w-8 h-8 rounded-full bg-yellow-500/10 border border-yellow-500/30 flex items-center justify-center shrink-0">
+<span class="text-yellow-500 font-bold text-sm">2</span>
+</div>
+<div>
+<h4 class="text-white font-semibold text-base">Check Your Email</h4>
+<p class="text-gray-400 text-sm mt-1 leading-relaxed">Receive login credentials instantly after purchase</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="w-8 h-8 rounded-full bg-yellow-500/10 border border-yellow-500/30 flex items-center justify-center shrink-0">
+<span class="text-yellow-500 font-bold text-sm">3</span>
+</div>
+<div>
+<h4 class="text-white font-semibold text-base">Install IPTV App</h4>
+<p class="text-gray-400 text-sm mt-1 leading-relaxed">Download recommended app for your device</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="w-8 h-8 rounded-full bg-yellow-500/10 border border-yellow-500/30 flex items-center justify-center shrink-0">
+<span class="text-yellow-500 font-bold text-sm">4</span>
+</div>
+<div>
+<h4 class="text-white font-semibold text-base">Login & Enjoy</h4>
+<p class="text-gray-400 text-sm mt-1 leading-relaxed">Enter credentials and start streaming 20,000+ channels</p>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+
+
+---------------------------
+
+
+<!-- ========== DESIGN 3: STATS CARDS (Icon Top + Big Number) ========== -->
+<div class="mb-16">
+<h3 class="text-white text-2xl font-bold mb-6 tracking-tight">Performance Stats</h3>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+
+<!-- Stat Card 1 -->
+<div class="bg-gradient-to-br from-yellow-500/5 to-transparent border border-yellow-500/20 rounded-2xl p-6 text-center hover:border-yellow-500/50 transition-all duration-500 hover:-translate-y-2 group">
+<div class="w-16 h-16 mx-auto rounded-full bg-yellow-500/10 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
+<svg class="w-8 h-8 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path d="M12 2v4M12 22v-4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M22 12h-4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"></path>
+<circle cx="12" cy="12" r="4"></circle>
+</svg>
+</div>
+<h3 class="text-white text-2xl md:text-3xl font-bold mb-1">20,000+</h3>
+<p class="text-gray-400 text-xs uppercase tracking-wide">Live Channels</p>
+</div>
+
+<!-- Stat Card 2 -->
+<div class="bg-gradient-to-br from-yellow-500/5 to-transparent border border-yellow-500/20 rounded-2xl p-6 text-center hover:border-yellow-500/50 transition-all duration-500 hover:-translate-y-2 group">
+<div class="w-16 h-16 mx-auto rounded-full bg-yellow-500/10 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
+<svg class="w-8 h-8 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<rect x="2" y="2" width="20" height="20" rx="2.18"></rect>
+<path d="M7 2v20M17 2v20M2 12h20M2 7h5M2 17h5M17 17h5M17 7h5"></path>
+</svg>
+</div>
+<h3 class="text-white text-2xl md:text-3xl font-bold mb-1">65,000+</h3>
+<p class="text-gray-400 text-xs uppercase tracking-wide">VOD Library</p>
+</div>
+
+<!-- Stat Card 3 -->
+<div class="bg-gradient-to-br from-yellow-500/5 to-transparent border border-yellow-500/20 rounded-2xl p-6 text-center hover:border-yellow-500/50 transition-all duration-500 hover:-translate-y-2 group">
+<div class="w-16 h-16 mx-auto rounded-full bg-yellow-500/10 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
+<svg class="w-8 h-8 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+<circle cx="12" cy="7" r="4"></circle>
+</svg>
+</div>
+<h3 class="text-white text-2xl md:text-3xl font-bold mb-1">15,000+</h3>
+<p class="text-gray-400 text-xs uppercase tracking-wide">Active Users</p>
+</div>
+
+<!-- Stat Card 4 -->
+<div class="bg-gradient-to-br from-yellow-500/5 to-transparent border border-yellow-500/20 rounded-2xl p-6 text-center hover:border-yellow-500/50 transition-all duration-500 hover:-translate-y-2 group">
+<div class="w-16 h-16 mx-auto rounded-full bg-yellow-500/10 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
+<svg class="w-8 h-8 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
+<path d="m9 12 2 2 4-4"></path>
+</svg>
+</div>
+<h3 class="text-white text-2xl md:text-3xl font-bold mb-1">99.9%</h3>
+<p class="text-gray-400 text-xs uppercase tracking-wide">Uptime</p>
+</div>
+
+</div>
+</div>
+
+
+<!-- ========== DESIGN 4: HORIZONTAL ICON + CONTENT CARDS ========== -->
+<div>
+<h3 class="text-white text-2xl font-bold mb-6 tracking-tight">Key Features</h3>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+
+<!-- Horizontal Card 1 -->
+<div class="flex items-center gap-5 p-5 bg-white/[0.02] border border-white/10 rounded-2xl hover:border-yellow-500/40 transition-all duration-500 hover:-translate-y-1 group">
+<div class="w-14 h-14 rounded-xl bg-yellow-500/10 flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform duration-300">
+<svg class="w-7 h-7 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<circle cx="12" cy="12" r="10"></circle>
+<path d="m9 12 2 2 4-4"></path>
+</svg>
+</div>
+<div>
+<h3 class="text-white text-lg font-bold tracking-tight mb-1">Instant Activation</h3>
+<p class="text-gray-400 text-sm">Credentials sent within 5 minutes after purchase</p>
+</div>
+</div>
+
+<!-- Horizontal Card 2 -->
+<div class="flex items-center gap-5 p-5 bg-white/[0.02] border border-white/10 rounded-2xl hover:border-yellow-500/40 transition-all duration-500 hover:-translate-y-1 group">
+<div class="w-14 h-14 rounded-xl bg-yellow-500/10 flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform duration-300">
+<svg class="w-7 h-7 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
+<path d="m9 12 2 2 4-4"></path>
+</svg>
+</div>
+<div>
+<h3 class="text-white text-lg font-bold tracking-tight mb-1">7-Day Refund</h3>
+<p class="text-gray-400 text-sm">Money-back guarantee for your peace of mind</p>
+</div>
+</div>
+
+<!-- Horizontal Card 3 -->
+<div class="flex items-center gap-5 p-5 bg-white/[0.02] border border-white/10 rounded-2xl hover:border-yellow-500/40 transition-all duration-500 hover:-translate-y-1 group">
+<div class="w-14 h-14 rounded-xl bg-yellow-500/10 flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform duration-300">
+<svg class="w-7 h-7 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>
+</svg>
+</div>
+<div>
+<h3 class="text-white text-lg font-bold tracking-tight mb-1">Fast Streaming</h3>
+<p class="text-gray-400 text-sm">Anti-freeze technology for buffer-free playback</p>
+</div>
+</div>
+
+<!-- Horizontal Card 4 -->
+<div class="flex items-center gap-5 p-5 bg-white/[0.02] border border-white/10 rounded-2xl hover:border-yellow-500/40 transition-all duration-500 hover:-translate-y-1 group">
+<div class="w-14 h-14 rounded-xl bg-yellow-500/10 flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform duration-300">
+<svg class="w-7 h-7 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<rect x="2" y="2" width="20" height="20" rx="2.18"></rect>
+<path d="M7 2v20M17 2v20M2 12h20M2 7h5M2 17h5M17 17h5M17 7h5"></path>
+</svg>
+</div>
+<div>
+<h3 class="text-white text-lg font-bold tracking-tight mb-1">All Devices</h3>
+<p class="text-gray-400 text-sm">Firestick, Smart TV, Android, iOS, Windows, Mac</p>
+</div>
+</div>
+
+<!-- Horizontal Card 5 -->
+<div class="flex items-center gap-5 p-5 bg-white/[0.02] border border-white/10 rounded-2xl hover:border-yellow-500/40 transition-all duration-500 hover:-translate-y-1 group">
+<div class="w-14 h-14 rounded-xl bg-yellow-500/10 flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform duration-300">
+<svg class="w-7 h-7 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"></path>
+</svg>
+</div>
+<div>
+<h3 class="text-white text-lg font-bold tracking-tight mb-1">24/7 Support</h3>
+<p class="text-gray-400 text-sm">Our team is always here to help you</p>
+</div>
+</div>
+
+<!-- Horizontal Card 6 -->
+<div class="flex items-center gap-5 p-5 bg-white/[0.02] border border-white/10 rounded-2xl hover:border-yellow-500/40 transition-all duration-500 hover:-translate-y-1 group">
+<div class="w-14 h-14 rounded-xl bg-yellow-500/10 flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform duration-300">
+<svg class="w-7 h-7 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path d="M20 12V8H4v4M12 4v4M8 4v4M16 4v4"></path>
+<rect x="2" y="12" width="20" height="8" rx="2"></rect>
+<path d="M6 16h.01M10 16h.01M14 16h.01M18 16h.01"></path>
+</svg>
+</div>
+<div>
+<h3 class="text-white text-lg font-bold tracking-tight mb-1">4K/8K Quality</h3>
+<p class="text-gray-400 text-sm">Crystal clear picture on all modern TVs</p>
+</div>
+</div>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+-------------------------
+
+
+
+<!-- ========== HEADING + PARAGRAPH DESIGNS ========== -->
+
+<!-- H1 Style (Article Title) -->
+<h1 class="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white leading-[1.1] mb-6">
+Main Article Title Here
+</h1>
+
+<!-- H1 with Yellow Accent -->
+<h1 class="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.1] mb-6">
+Main Article <span class="text-yellow-500">Title Here</span>
+</h1>
+
+<!-- H2 Style (Main Section Headings) -->
+<h2 class="text-2xl md:text-3xl font-bold tracking-tight text-white mt-12 mb-5 pb-2 border-b border-white/10">
+Section Heading Here
+</h2>
+
+<!-- H2 with Yellow Text -->
+<h2 class="text-2xl md:text-3xl font-bold tracking-tight text-yellow-500 mt-12 mb-5 pb-2 border-b border-yellow-500/30">
+Section Heading Here
+</h2>
+
+<!-- H3 Style (Subsection Headings) -->
+<h3 class="text-xl md:text-2xl font-semibold tracking-tight text-yellow-500 mt-8 mb-4">
+Subsection Heading Here
+</h3>
+
+<!-- H3 with White Text -->
+<h3 class="text-xl md:text-2xl font-semibold tracking-tight text-white mt-8 mb-4">
+Subsection Heading Here
+</h3>
+
+<!-- ========== PARAGRAPH STYLES ========== -->
+
+<!-- Standard Paragraph -->
+<p class="text-gray-300 text-base md:text-lg leading-relaxed md:leading-loose mb-6">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+</p>
+
+<!-- Lead Paragraph (Larger Text - Special Design) -->
+<p class="text-gray-200 text-xl md:text-2xl leading-relaxed md:leading-loose mb-8 font-medium">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+</p>
+
+<!-- Lead Paragraph with Yellow Text -->
+<p class="text-yellow-500/90 text-xl md:text-2xl leading-relaxed md:leading-loose mb-8 font-medium">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+</p>
+
+<!-- ========== LEFT BAR DESIGNS WITH BORDER RADIUS ========== -->
+
+<!-- Left Bar Design 1: Simple Left Border with Border Radius -->
+<div class="relative pl-5 border-l-4 border-yellow-500 rounded-r-2xl mb-6">
+<p class="text-gray-300 text-base md:text-lg leading-relaxed md:leading-loose">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+</p>
+</div>
+
+<!-- Left Bar Design 2: Left Border with Background and Border Radius -->
+<div class="relative pl-5 py-4 border-l-4 border-yellow-500 bg-yellow-500/5 rounded-r-2xl mb-6">
+<p class="text-gray-300 text-base md:text-lg leading-relaxed md:leading-loose">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+</p>
+</div>
+
+<!-- Left Bar Design 3: Gradient Left Border with Border Radius -->
+<div class="relative pl-5 border-l-4 border-gradient rounded-r-2xl mb-6" style="border-image: linear-gradient(to bottom, #eab308, #ca8a04) 1;">
+<p class="text-gray-300 text-base md:text-lg leading-relaxed md:leading-loose">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+</p>
+</div>
+
+<!-- Left Bar Design 4: Left Border with Icon and Border Radius -->
+<div class="relative pl-5 border-l-4 border-yellow-500 rounded-r-2xl mb-6">
+<div class="absolute -left-3 top-0 w-6 h-6 rounded-full bg-yellow-500 flex items-center justify-center">
+<svg class="w-3 h-3 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path d="M20 12V8H4v4M12 4v4M8 4v4M16 4v4"></path>
+<rect x="2" y="12" width="20" height="8" rx="2"></rect>
+</svg>
+</div>
+<p class="text-gray-300 text-base md:text-lg leading-relaxed md:leading-loose pl-2">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+</p>
+</div>
+
+<!-- Left Bar Design 5: Yellow Text Paragraph with Left Border -->
+<div class="relative pl-5 border-l-4 border-yellow-500 rounded-r-2xl mb-6">
+<p class="text-yellow-500/80 text-base md:text-lg leading-relaxed md:leading-loose italic">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+</p>
+</div>
+
+<!-- ========== TWO COLUMN PARAGRAPHS ========== -->
+
+<!-- Two Column Grid Paragraphs -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mb-8">
+<p class="text-gray-300 text-base md:text-lg leading-relaxed md:leading-loose">
+First column paragraph content here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.
+</p>
+<p class="text-gray-300 text-base md:text-lg leading-relaxed md:leading-loose">
+Second column paragraph content here. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+</p>
+</div>
+
+<!-- Two Column with Yellow Text -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mb-8">
+<p class="text-yellow-500/80 text-base md:text-lg leading-relaxed md:leading-loose">
+First column with yellow text. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+</p>
+<p class="text-yellow-500/80 text-base md:text-lg leading-relaxed md:leading-loose">
+Second column with yellow text. Ut enim ad minim veniam, quis nostrud exercitation.
+</p>
+</div>
+
+<!-- ========== GLASS CARD PARAGRAPH ========== -->
+
+<!-- Glass Card Paragraph -->
+<div class="bg-white/[0.02] backdrop-blur-sm border border-white/10 rounded-2xl p-6 md:p-8 mb-8">
+<p class="text-gray-300 text-base md:text-lg leading-relaxed md:leading-loose">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+</p>
+</div>
+
+<!-- Glass Card Paragraph with Yellow Text -->
+<div class="bg-yellow-500/5 backdrop-blur-sm border border-yellow-500/20 rounded-2xl p-6 md:p-8 mb-8">
+<p class="text-yellow-500/90 text-base md:text-lg leading-relaxed md:leading-loose">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+</p>
+</div>
+
+<!-- ========== CALL TO ACTION PARAGRAPH ========== -->
+
+<!-- Centered CTA Paragraph -->
+<div class="text-center max-w-2xl mx-auto mb-8">
+<p class="text-gray-200 text-lg md:text-xl leading-relaxed md:leading-loose font-medium">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+</p>
+</div>
+
+<!-- Centered CTA with Yellow Text -->
+<div class="text-center max-w-2xl mx-auto mb-8">
+<p class="text-yellow-500 text-lg md:text-xl leading-relaxed md:leading-loose font-medium">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+</p>
+</div>
+
+
+
+------------------------------
+
+
+<!-- ========== DESIGN 5: Image with Gold Border Accent ========== -->
+<div class="relative w-full rounded-2xl overflow-hidden aspect-[16/9] mb-8 border-2 border-yellow-500/30 p-1">
+<div class="relative w-full h-full rounded-xl overflow-hidden">
+<img
+src="/img/blog/gold-border-image.jpg"
+alt="Gold border image description"
+class="w-full h-full object-cover"
+/>
+<div class="absolute inset-0 bg-gradient-to-t from-[#050B14] via-transparent to-transparent opacity-60"></div>
+</div>
+</div>
+
+<!-- ========== DESIGN 7: Floating Image with Text Wrap (Left) ========== -->
+<div class="flex flex-col md:flex-row gap-6 mb-8">
+<div class="relative w-full md:w-1/2 rounded-2xl overflow-hidden aspect-[4/3]">
+<img
+src="/img/blog/float-left-image.jpg"
+alt="Floating left image description"
+class="w-full h-full object-cover"
+/>
+</div>
+<div class="flex-1">
+<h3 class="text-white text-xl font-bold mb-3">Section Title</h3>
+<p class="text-gray-300 text-base leading-relaxed">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+</p>
+</div>
+</div>
+
+<!-- ========== DESIGN 8: Floating Image with Text Wrap (Right) ========== -->
+<div class="flex flex-col md:flex-row-reverse gap-6 mb-8">
+<div class="relative w-full md:w-1/2 rounded-2xl overflow-hidden aspect-[4/3]">
+<img
+src="/img/blog/float-right-image.jpg"
+alt="Floating right image description"
+class="w-full h-full object-cover"
+/>
+</div>
+<div class="flex-1">
+<h3 class="text-white text-xl font-bold mb-3">Section Title</h3>
+<p class="text-gray-300 text-base leading-relaxed">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+</p>
+</div>
+</div>

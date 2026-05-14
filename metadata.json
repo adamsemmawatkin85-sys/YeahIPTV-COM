@@ -1,0 +1,6 @@
+{
+  "name": "IPTV Streamer",
+  "description": "Premium IPTV subscription dashboard with live channels, VODs, EPG timeline and statistics.",
+  "requestFramePermissions": ["fullscreen"],
+  "majorCapabilities": []
+}
