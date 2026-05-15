@@ -176,6 +176,8 @@ const ProductSchema = () => (
         "@context": "https://schema.org",
         "@type": "Product",
         "name": "YeahIPTV Premium Subscription",
+        "logo": "https://iptvyeah.com/img/logo.webp",
+        "image": "https://iptvyeah.com/img/logo.webp",
         "description": "Premium IPTV service with 20,000+ live channels and 65,000+ VODs.",
         "brand": { "@type": "Brand", "name": "YeahIPTV" },
         "aggregateRating": {
